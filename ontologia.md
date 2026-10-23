@@ -1,5 +1,5 @@
 
-# Ontología del perro
+# Ontologia del perro
 
 ## 1. Descripcion
 
@@ -17,7 +17,7 @@ Los hechos se representan mediante predicados asociados al individuo perro.
 - `amamanta_crias(perro)`
 - `crias_vientre_materno(perro)`
 
-## 3. Representación gráfica de los hechos
+## 3. Representación grafica de los hechos
 
 ```mermaid
 flowchart TD
@@ -71,6 +71,6 @@ Los hechos se almacenan mediante tuplas y las reglas se representan mediante tup
 
 El programa utiliza la funcion `all()` para comprobar si todas las condiciones de cada regla se encuentran en la base de hechos. 
 
-## 7. Conclusión
+## 7. Conclusion
 
 La ontologia nos permite organizar graficamente el conocimiento obtenido en la entrevista. Los hechos describen las caracteristicas del perro y las reglas permiten evaluar las condiciones para obtener conclusiones mediante Python.
